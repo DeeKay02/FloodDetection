@@ -14,8 +14,8 @@ The Arduino measures the water level using the ultrasonic sensor and sends it to
 
 The Python code in the cloud takes the water level data from the Arduino’s serial port and checks the threshold and if the water level is less than the threshold, a message will be sent to the given mobile number by calling the Twilio API.
 
-   ![Picture1](https://user-images.githubusercontent.com/48171972/176244232-5f89133d-ee98-427b-99ee-7eaa3ff79a39.png)
-The above image is the circuit implemented.
+   ![Picture1](https://user-images.githubusercontent.com/48171972/176244232-5f89133d-ee98-427b-99ee-7eaa3ff79a39.png)<br/>
+The above image is the circuit implemented.<br/>
                            ![image](https://user-images.githubusercontent.com/48171972/176244407-d104fd1b-1b55-44da-b0ff-5e0bb323ae0a.png)
 
 Since the range of an Ultrasonic senso usedd for experimenting can measure only short distance, the threshhold has been set as 30cm. When implementing in large scale, much powerful sensor with other sensors for more confirmations can be used
