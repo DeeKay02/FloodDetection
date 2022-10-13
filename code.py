@@ -10,7 +10,7 @@ response = mybolt.serialRead('10')
 print(response)
 
 while True: 
-    print ("Reading sensor value")
+    print ("Reading sensor value using Ardino")
     mybolt.serialWrite("GetAnalogData")
     response = mybolt.serialRead(10)
     data = json.loads(response) 
